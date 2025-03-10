@@ -67,7 +67,7 @@ function FourthContent() {
             <p className="text-base sm:text-lg text-gray-600 max-w-lg mx-auto lg:mx-0">
               Stroll along the promenade in the morning, dip into a museum midday, sip wine from the Loire Valley and dine on pasta alle vongole in the evening.
             </p>
-            <button className="bg-[#FF7E22] text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-medium hover:bg-[#F6F6F6] transition-colors">
+            <button className="bg-[#CF3036] text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-medium hover:bg-[#F6F6F6] transition-colors">
               SCHEDULE A VISIT
             </button>
           </div>

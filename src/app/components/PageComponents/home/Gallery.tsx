@@ -2,14 +2,8 @@ import React from 'react';
 
 export default function Gallery() {
     const images = [
-        "https://villamiami-residences.com/wp-content/uploads/2023/10/VILLA_PrimaryBed2-e1700143407827.jpg",
-        "https://villamiami-residences.com/wp-content/uploads/2023/10/VILLA_PrimaryBed1-e1700143437271.jpg",
-        "https://villamiami-residences.com/wp-content/uploads/2023/10/VILLA_PrimaryBathHummingbird-3-e1700143459910.jpg",
-        "https://villamiami-residences.com/wp-content/uploads/2023/10/VILLA_PrimaryBath-2-e1700143478525.jpg",
-        "https://villamiami-residences.com/wp-content/uploads/2023/10/Villa_Living_Birdseye-1-e1700143553870.jpg",
-        "https://villamiami-residences.com/wp-content/uploads/2023/10/VILLA_Living-1-e1700143573558.jpg",
-        "https://villamiami-residences.com/wp-content/uploads/2023/10/Villa_KitchenGreen2-e1700143603176.jpg",
-        "https://villamiami-residences.com/wp-content/uploads/2023/10/Villa_KitchenGreen-e1700143620439.jpg",
+        "/faena-1.jpeg",
+        "/faena-second-content.jpeg",
     ];
 
   return (

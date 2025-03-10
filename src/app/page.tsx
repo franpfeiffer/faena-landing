@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <div className="mt-[65px] lg:mt-[86px]">
         <Header
-            title="Villa Miami Residence"
-            description="a major food group residential experience"
-            image="/45-scaled.webp"
+            title="FAENA RESIDENCES"
+            description="Where Art, Luxury and Oceanfront Living Converge"
+            image="/faena-1.jpeg"
             home
         />
         <FirstContent />

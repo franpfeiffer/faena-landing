@@ -6,15 +6,13 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 
 const residenceImages = [
-  'https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1600573472591-ee6c8e695481?auto=format&fit=crop&q=80'
+    "/faena-1.jpeg",
+    "/render-first-content.jpeg",
 ];
 
 const bedroomImages = [
-  'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80'
+    "/faena-1.jpeg",
+    "/render-first-content.jpeg",
 ];
 
 const features = [
@@ -70,7 +68,7 @@ function FifthContent() {
             >
               {residenceImages.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <div 
+                  <div
                     className="h-full w-full bg-cover bg-center"
                     style={{ backgroundImage: `url(${image})` }}
                   />
@@ -83,10 +81,10 @@ function FifthContent() {
             <h2 className="text-3xl lg:text-4xl font-light text-gray-900 mb-8">
               Old-World Elegance with Every Modern Convenience
             </h2>
-            
+
             <p className="text-gray-600 mb-12 text-lg leading-relaxed">
-              Each residence at Villa Miami is designed as it would be in the European countryside: 
-              With sunlight pouring in from all directions, sprawling living rooms made for gathering 
+              Each residence at Villa Miami is designed as it would be in the European countryside:
+              With sunlight pouring in from all directions, sprawling living rooms made for gathering
               and lounging, and dining rooms meant for big groups and late nights.
             </p>
 
@@ -111,10 +109,10 @@ function FifthContent() {
             <h2 className="text-3xl lg:text-4xl font-light text-gray-900 mb-8">
               Bedrooms
             </h2>
-            
+
             <p className="text-gray-600 mb-12 text-lg leading-relaxed">
-              Start every day with a view of the bay, and go to bed with the lights of Miami twinkling 
-              in the distance. Bedroom suites at Villa come with unending views, in addition to expansive 
+              Start every day with a view of the bay, and go to bed with the lights of Miami twinkling
+              in the distance. Bedroom suites at Villa come with unending views, in addition to expansive
               floor plans for even-more-intimate lounging to say nothing of the private dressing rooms.
             </p>
 
@@ -146,8 +144,8 @@ function FifthContent() {
               {materials.map((material, index) => (
                 <div key={index} className="space-y-2">
                   <div className="aspect-square overflow-hidden rounded-lg">
-                    <img 
-                      src={material.image} 
+                    <img
+                      src={material.image}
                       alt={material.name}
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                     />
@@ -171,7 +169,7 @@ function FifthContent() {
             >
               {bedroomImages.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <div 
+                  <div
                     className="h-full w-full bg-cover bg-center"
                     style={{ backgroundImage: `url(${image})` }}
                   />

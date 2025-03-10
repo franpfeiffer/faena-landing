@@ -3,32 +3,32 @@ import { CgGym } from "react-icons/cg";
 
 const arrayContent = [
     {
-        logo: <FaSpa className="text-4xl md:text-5xl text-[#ff7400]"/>,
+        logo: <FaSpa className="text-4xl md:text-5xl text-[#CF3036]"/>,
         title: "Mediterranean style spa & wellness",
         description: "Inspired by the thermal spas on the Italian island of Ischia, Villa Miami’s spa offers the ultimate in wellness: a stunning relaxation lounge, opulent plunge pools, complemented by saunas, steam rooms, and a variety of treatment rooms.",
     },
     {
-        logo: <FaDiaspora className="text-4xl md:text-5xl text-[#ff7400]"/>,
+        logo: <FaDiaspora className="text-4xl md:text-5xl text-[#CF3036]"/>,
         title: "waterside gardens",
         description: "Designed by the landscape architects at Enzo Enea, Villa Miami’s grounds are dotted with a series of private gardens, filled with native flowering trees and meant for moments of contemplation.",
     },
     {
-        logo: <FaSwimmingPool className="text-4xl md:text-5xl text-[#ff7400]"/>,
+        logo: <FaSwimmingPool className="text-4xl md:text-5xl text-[#CF3036]"/>,
         title: "an elevated pool deck",
         description: "Catch rays, socialize, or seek solitude on the 5th floor pool deck. Fully serviced and outfitted with a variety of lounges, this perfectly appointed space creates a sense of refined indulgence.",
     },
     {
-        logo: <CgGym className="text-4xl md:text-5xl text-[#ff7400]"/>,
+        logo: <CgGym className="text-4xl md:text-5xl text-[#CF3036]"/>,
         title: "fitness studio",
         description: "A state-of-the-art gym (designed to feel like a spa), complete with the latest fitness equipment and both group and private training available.",
     },
     {
-        logo: <FaRegBuilding className="text-4xl md:text-5xl text-[#ff7400]"/>,
+        logo: <FaRegBuilding className="text-4xl md:text-5xl text-[#CF3036]"/>,
         title: "MFG restaurant & bar",
         description: "MFG restaurant on site. MFG culinary services at home & an MFG curated lifestyle & an MFG curated lifestyle",
     },
     {
-        logo: <FaRegBuilding className="text-4xl md:text-5xl text-[#ff7400]"/>,
+        logo: <FaRegBuilding className="text-4xl md:text-5xl text-[#CF3036]"/>,
         title: "MFG restaurant & bar",
         description: "MFG restaurant on site. MFG culinary services at home & an MFG curated lifestyle & an MFG curated lifestyle",
     },

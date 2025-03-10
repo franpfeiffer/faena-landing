@@ -54,7 +54,7 @@ const Navbar = () => {
                     </ul>
                     </div>
                     <div className="hidden lg:flex items-center space-x-4">
-                        <button className="bg-[#ff7400] text-white font-neue-plak-black px-6 py-2 border-2 border-[#ff7400] hover:bg-[#f6f6f6] hover:text-[#ff7400]">
+                        <button className="bg-[#CF3036] text-white font-neue-plak-black px-6 py-2 border-2 border-[#CF3036] hover:bg-[#f6f6f6] hover:text-[#CF3036]">
                             SCHEDULE A VISIT
                         </button>
                     </div>

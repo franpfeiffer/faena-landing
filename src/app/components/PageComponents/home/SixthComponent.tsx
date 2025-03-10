@@ -98,7 +98,7 @@ function PlanDetails({ details }: { details: PlanDetails }) {
               <span className="font-semibold">{details.squareFeet}</span>
             </li>
           </ul>
-          <button className="w-full mt-6 px-6 py-3 bg-[#FF7E22] text-white hover:bg-[#F6F6F6] hover:text-black transition-colors duration-300">
+          <button className="w-full mt-6 px-6 py-3 bg-[#CF3036] text-white hover:bg-[#F6F6F6] hover:text-black transition-colors duration-300">
             SCHEDULE A VISIT
           </button>
         </div>
@@ -132,7 +132,7 @@ function PlanSection({ section, id }: { section: PlanSection; id: string }) {
               onClick={() => setActivePlan(planName)}
               className={`px-6 py-3  font-medium transition-colors duration-300 ${
                 activePlan === planName
-                  ? 'bg-[#FF7E22] text-white font-bold'
+                  ? 'bg-[#CF3036] text-white font-bold'
                   : 'bg-[#D6D6D6] text-black hover:bg-gray-200'
               }`}
             >
