@@ -44,7 +44,7 @@ const SecondContent = () => {
                             {item.logo}
                         </div>
                         <h3 className="text-xl md:text-2xl font-neue-plak-black uppercase mb-4">{item.title}</h3>
-                        <p className="text-2xl md:text-base text-[#b4b6bb] mb-4">{item.description}</p>
+                        <p className="text-2xl md:text-xl text-[#b4b6bb] mb-4">{item.description}</p>
                     </div>
                 </div>
             ))}

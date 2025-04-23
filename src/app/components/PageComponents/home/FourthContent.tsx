@@ -64,10 +64,10 @@ function FourthContent() {
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
               At water's edge, with the best of Miami at your door
             </h2>
-            <p className="text-base sm:text-lg text-gray-600 max-w-lg mx-auto lg:mx-0">
+            <p className="text-base sm:text-2xl text-gray-600 max-w-lg mx-auto lg:mx-0">
               Stroll along the promenade in the morning, dip into a museum midday, sip wine from the Loire Valley and dine on pasta alle vongole in the evening.
             </p>
-            <button className="bg-[#CF3036] text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-medium hover:bg-[#F6F6F6] transition-colors">
+            <button className="bg-[#CF3036] text-white px-6 sm:px-8 py-3 sm:py-4 text-xl sm:text-xl font-black hover:bg-[#F6F6F6] transition-colors">
               SCHEDULE A VISIT
             </button>
           </div>
@@ -108,7 +108,7 @@ function FourthContent() {
                 </SwiperSlide>
               ))}
             </Swiper>
-            
+
             <button className="swiper-button-prev absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-white/90 p-2 rounded-full shadow-lg hover:bg-white transition-colors">
               <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>

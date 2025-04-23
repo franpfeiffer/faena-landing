@@ -7,7 +7,7 @@ export default function SeventhContent() {
         <div className="space-y-8">
           <h1 className="text-4xl md:text-5xl font-black tracking-tight">DEPOSIT STRUCTURE</h1>
 
-          <div className="space-y-4 text-lg md:text-xl">
+          <div className="space-y-4 text-xl md:text-3xl">
             <p className="font-medium">10% WITH CONTRACT</p>
             <p className="font-medium">10% IN 90 DAYS</p>
             <p className="font-medium">10% IN GROUND BREAKING</p>
@@ -20,7 +20,7 @@ export default function SeventhContent() {
             HOME IS WAITING FOR YOU HERE
           </h2>
 
-          <button className="bg-[#CF3036] text-white px-8 py-3 hover:bg-[#F6F6F6]/90 hover:text-black transition-colors font-medium">
+          <button className="bg-[#CF3036] text-2xl text-white px-8 py-3 hover:bg-[#F6F6F6]/90 hover:text-black transition-colors font-medium">
             SCHEDULE A VISIT
           </button>
         </div>
