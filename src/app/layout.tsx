@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Villa Miami",
-  description: "Villa Miami",
+  title: "Faena Residences Miami",
+  description: "Faena Residences Miami",
 };
 
 export default function RootLayout({

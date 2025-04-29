@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +12,7 @@ const Navbar = () => {
         { name: "Floor Plans", path: "/floor-plans" },
         { name: "Renderings", path: "/renderings" },
         { name: "Deposit Structure", path: "/deposit-structure" },
-        { name: "Fact Sheet", path: "https://villamiami-residences.com/wp-content/uploads/2023/11/FactSheet-Modificado.pdf" }
+        { name: "Fact Sheet", path: "https://faenaresidencesmia.com/wp-content/uploads/2025/02/Fact-Sheet-English.pdf" }
     ];
 
     return (
@@ -22,13 +21,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0">
                         <Link href="/">
-                            <Image
-                                src="/villa-miami-logo-1.svg"
-                                alt="logo"
-                                width={100}
-                                height={100}
-                                className="h-12 w-auto"
-                            />
+                            <h2 className="text-6xl font-neue-plak-light text-[#CF3036]">FAENA RESIDENCES</h2>
                         </Link>
                     </div>
                     <div className="hidden lg:flex items-center space-x-8">
@@ -37,7 +30,7 @@ const Navbar = () => {
                                 <li key={name} className="relative group">
                                     {name === "Fact Sheet" ? (
                                         <a
-                                        href="https://villamiami-residences.com/wp-content/uploads/2023/11/FactSheet-Modificado.pdf"
+                                        href="https://faenaresidencesmia.com/wp-content/uploads/2025/02/Fact-Sheet-English.pdf"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-gray-700 hover:text-gray-900 font-medium"
@@ -109,8 +102,13 @@ const Navbar = () => {
                         </svg>
                     </button>
 
+                    {/* Logo en el menú móvil */}
+                    <div className="mt-2 mb-8">
+                        <h2 className="text-xl font-bold text-gray-800">FAENA RESIDENCES</h2>
+                    </div>
+
                     {/* Items del Menú */}
-                    <ul className="mt-12 space-y-4">
+                    <ul className="space-y-4">
                         {menuItems.map(({ name, path }) => (
                             <li key={name}>
                                 <Link
@@ -136,5 +134,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
